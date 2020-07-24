@@ -1,0 +1,212 @@
+
+
+/* === common css class end here === */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+p {
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* === common css class end here === */
+
+.m0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.pl0 {
+    padding-left: 0;
+}
+
+.pr0 {
+    padding-right: 0;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.mt-5{
+	padding-top: 80px;
+}
+
+
+/* font family */
+
+.froboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.pro-text{
+  margin-top: 60px;
+}
+.pro-text h2{
+  font-size: 22px;
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 10px;
+}
+
+.pro-text span{
+  font-size: 16px;
+  font-weight: 700;
+  color: #5F6F81;
+}
+
+.in li{
+  display: inline-block;
+  margin-right: 5px;
+  color:  #5F6F81;
+}
+
+.m-t-4{
+  margin-top: 40px;
+}
+.bgw{
+  background-position: center;
+  background-size: cover;
+}
+
+/* === to-top css == */
+
+/* ===== START CSS FOR HOME-PAGE ===== */
+
+.rotate_slider {
+    height: 300px;
+    margin: 30px auto;
+}
+
+.section_title{
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.section_title{
+  font-size: 18px;
+}
+.mainbtn{
+  color: #009688;
+}
+
+.mia{
+  margin-top: 20px;
+}
+.main_btn{
+      width: 40px;
+     height: 40px;
+     background: #009688;
+     color: #ffffff;
+     text-align: center;
+     padding: 7px 10px;
+     transition: 0.3s;
+     z-index: 10;
+     -webkit-box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+     box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+     position: absolute;
+}
+
+
+
+.main_btn i{
+  margin-top: 2px;
+  font-size: 18px;
+  position:relative;
+  -webkit-animation: move 0.7s linear infinite alternate;
+    animation: move 0.7s linear infinite alternate;
+}
+.img-wok img{
+  width: 100%;
+}
+
+.venoframe, .vbox-inline{
+  height: 90vh !important;
+  width: 90% !important;
+}
+
+.workview .slick-dots {
+    position: absolute;
+    text-align: center;
+    left: 15px;
+    bottom: -30px;
+}
+
+.workview .slick-dots li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.workview li button {
+    background-color: transparent;
+    border: 1px solid #009688;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    font-size: 0px;
+    cursor: pointer;
+}
+
+.workview .slick-dots li.slick-active button {
+    border-color: #009688;
+    background-color: #009688;
+}
+
+
+
+@-webkit-keyframes move {
+    from {
+        position: relative;
+        right: -3px;
+    }
+    to {
+        position: relative;
+        right: 3px;
+    }
+}
+
+@keyframes move {
+    from {
+        position: relative;
+        right: -3px;
+    }
+    to {
+        position: relative;
+        right: 3px;
+    }
+}
+
+.main_btn:hover{
+  color: #ffffff;
+}
+/* === footer section end === */
+
+
+/* ==== responsive css start ==== */
+
+@media(min-width:767px) {}
+
+@media(min-width:992px) and (max-width:1199px) {}
+
+@media(min-width:768px) and (max-width:991px) {
+}
+
+@media(max-width:767px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {}
